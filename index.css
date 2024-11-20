@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tagline {
+  color: #f1c40f; /* Yellow color */
+}
+
+/* Default Light Theme */
+body.light {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #f4f4f9;
+}
+
+/* Dark Theme Header */
+body.dark header {
+  background-color: #1e1e1e;
+}
+
+body.dark .btn {
+  background-color: #555;
+}
+
+body.dark header nav ul li a {
+  color: #f4f4f9;
+}
+
+/* Header and navigation styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Profile styling */
+header .profile {
+  display: flex;
+  justify-content: center; /* Centers profile image and name */
+  align-items: center;
+}
+
+header .profile h1 {
+  margin-left: 10px; /* Space between image and name */
+  font-size: 1.5rem;
+}
+
+/* Profile picture styling */
+header .profile-picture {
+  width: 10px; /* 10px width */
+  height: 10px; /* 10px height */
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image fits within the box */
+  overflow: hidden; /* Clips any excess image content */
+  margin-right: 10px; /* Space between the image and the name */
+}
+
+/* Navigation links */
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#hero .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Button Hover Animation */
+.btn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Gradient Background Animation */
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #ff6b6b, #f1c40f);
+  }
+  50% {
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+  }
+  100% {
+    background: linear-gradient(45deg, #ff6b6b, #f1c40f);
+  }
+}
+
+body {
+  animation: gradientAnimation 10s ease infinite;
+  background-size: 400% 400%;
+}
+
+/* About Section Styling */
+#about {
+  padding: 2rem 1rem; /* Add spacing around the section */
+  background-color: #f9f9f9; /* Light background for contrast */
+  text-align: center; /* Center all content */
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+#about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the content horizontally */
+  flex-direction: column; /* Makes the content stack vertically */
+  gap: 1rem; /* Adds space between image and text */
+}
+
+.about-picture {
+  width: 250px; /* Very small size */
+  height: 250px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image fits within its container */
+  margin: 0 auto; /* Centers the image */
+  display: block;
+}
+
+#about p {
+  font-size: 1rem;
+  line-height: 1.6; /* Improves readability */
+  color: #333;
+  max-width: 600px; /* Restricts text width for better readability */
+  margin: 0 auto; /* Centers the text */
+}
+
+@media (max-width: 768px) {
+  header .profile {
+    flex-direction: column;
+  }
+  #about .about-content {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+

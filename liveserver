@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3.12",
+    "explorer.autoOpenDroppedFile": false,
+    "explorer.autoReveal": false,
+    "liveServer.settings.ChromeDebuggingAttachment": false
+}

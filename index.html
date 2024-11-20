@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Jane Muraya">
+  <title>Jane Muraya's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="profile.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+  <header>
+    <nav>
+      <div class="profile">
+        <img src="profile.jpg" alt="Jane Muraya" class="profile-picture">
+        <h1>Jane Muraya</h1>
+      </div>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- Link to CV -->
+        <li><a href="janecv.pdf" target="_blank">My CV</a></li>
+      </ul>
+      <button id="darkModeToggle">🌙 Dark Mode</button> <!-- Dark Mode toggle button -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p id="tagline">Crafting innovative website solutions that power seamless user experiences.</p>
+      <a href="#projects" class="btn">Explore My Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile.jpg" alt="Jane Muraya" class="about-picture">
+        <p>
+          Hi! I'm Jane Muraya a passionate web developer with a love for creating functional and beautiful web experiences. I enjoy creating solutions that 
+          optimize performance and deliver exceptional value to users. Whether it is designing efficient database systems 
+          or implementing secure authentication workflows, I am passionate about technology and that makes a difference!
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor of Science in Information Technology - Karatina University</li>
+        <li>Web Development - Freecodecamp</li>
+      </ul>
+      <!-- Download CV link -->
+      <a href="janecv.pdf" download class="btn">Download My CV</a>
+    </section>
+
+    <section id ="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Web Development: Exploring modern frameworks and best practices like flask, React.js, Bootstrap and next.js.</li>
+        <li>Tech Innovations: Keeping up with emerging trends in technology like AI integration and Web3 & blockchain.</li>
+      </ul>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Movie Ticket Booking System</h3>
+        <p>A Python-based ticket booking system with real-time data visualization using Matplotlib.</p>
+        <a href="https://github.com/Janemura/CTF-Challenges/blob/main/movie_ticket_booking_system.ipynb" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio site showcasing my skills and projects, built using HTML, CSS, and JavaScript.</p>
+        <a href="#" target="_blank">View Live</a>
+      </div>
+      <div class="project">
+        <h3>Cybersecurity Agent</h3>
+        <p>Designed and implemented a cybersecurity agent using Python to detect and mitigate security threats.</p>
+        <a href="https://github.com/Janemura/CTF-Challenges/blob/main/cybersecurity_agent.ipynb" target="_blank">View on GitHub</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mjkvowlq" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Jane Muraya. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/jane-muraya-a00b63277" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Janemura" target="_blank">GitHub</a> |
+      <a href="mailto:wjane0951@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <!-- Include your custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
