@@ -12,11 +12,11 @@ The website begins with the <html> element, which indicates the start of the doc
 
 The body of the website is divided into several sections:
 
-1. **Header and Navigation**: The header section contains the site’s logo (my profile picture and name) and a navigation bar with links to the different sections of the website, such as "About Me", "Education", "Projects", and "Contact". It also includes a button that toggles between light and dark themes. The navigation bar is accessible and ensures that users can easily jump between different sections.
+ **Header and Navigation**: The header section contains the site’s logo (my profile picture and name) and a navigation bar with links to the different sections of the website, such as "About Me", "Education", "Projects", and "Contact". It also includes a button that toggles between light and dark themes. The navigation bar is accessible and ensures that users can easily jump between different sections.
 
-2. **Main Content**: The main body of the page features different sections, including an introductory hero section, a detailed about me section, an education section, a list of projects, and a contact form. Each section is identified with a unique ID to facilitate smooth navigation using anchor links. The "Projects" section, for instance, showcases my completed projects, each with a brief description and links to live demos or GitHub repositories.
+ **Main Content**: The main body of the page features different sections, including an introductory hero section, a detailed about me section, an education section, a list of projects, and a contact form. Each section is identified with a unique ID to facilitate smooth navigation using anchor links. The "Projects" section, for instance, showcases my completed projects, each with a brief description and links to live demos or GitHub repositories.
 
-3. **Footer**: The footer provides additional contact details, including links to my LinkedIn, GitHub, and email.
+ **Footer**: The footer provides additional contact details, including links to my LinkedIn, GitHub, and email.
 
 
 
@@ -26,11 +26,11 @@ I used CSS to control the layout, appearance, and overall look of the portfolio 
 
 The CSS begins with a reset rule to eliminate browser inconsistencies, ensuring that all elements have zero margin and padding, with the box-sizing set to border-box for easier layout control.
 
-1. **General Styling**: The site uses a modern font from Google Fonts called "Roboto". The body background color and text color are set depending on the active theme (light or dark). The site employs flexible containers and grid systems to arrange the sections, with images, texts, and buttons properly spaced.
+**General Styling**: The site uses a modern font from Google Fonts called "Roboto". The body background color and text color are set depending on the active theme (light or dark). The site employs flexible containers and grid systems to arrange the sections, with images, texts, and buttons properly spaced.
 
-2. **Light and Dark Themes**: One of the standout features of this portfolio website is its light and dark modes. These two themes are controlled by classes applied to the body tag (light or dark). The default theme is light, with a light background and dark text. The dark theme has a dark background and light text, which reduces eye strain in low-light environments. When the dark mode toggle button is clicked, the corresponding CSS classes are toggled, instantly switching the visual theme of the site.
+**Light and Dark Themes**: One of the standout features of this portfolio website is its light and dark modes. These two themes are controlled by classes applied to the body tag (light or dark). The default theme is light, with a light background and dark text. The dark theme has a dark background and light text, which reduces eye strain in low-light environments. When the dark mode toggle button is clicked, the corresponding CSS classes are toggled, instantly switching the visual theme of the site.
 
-3. **Responsive Design**: The CSS file also includes media queries that ensure the website is fully responsive. For smaller screen sizes (such as mobile devices), the layout adjusts to display content in a single column, making it easier to read and navigate. The use of flexible box layouts (flexbox) and media queries ensures that the content remains accessible and visually appealing across a wide range of devices.
+**Responsive Design**: The CSS file also includes media queries that ensure the website is fully responsive. For smaller screen sizes (such as mobile devices), the layout adjusts to display content in a single column, making it easier to read and navigate. The use of flexible box layouts (flexbox) and media queries ensures that the content remains accessible and visually appealing across a wide range of devices.
 
 
 
